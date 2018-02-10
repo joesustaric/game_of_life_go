@@ -21,11 +21,11 @@ import (
 // }
 
 func TestNewCell(t *testing.T) {
-	Convey("When I call NewCell", t, func() {
-		cell := NewCell()
+	Convey("When I call NewCell with a state", t, func() {
+		cell := NewCell(false)
 
-		Convey("Then I get a new cell", func() {
-			So(cell, ShouldNotBeNil)
+		Convey("Then the new cell has the correct state", func() {
+			So(cell.State, ShouldBeFalse)
 		})
 	})
 }
