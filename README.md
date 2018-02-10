@@ -10,4 +10,4 @@ Just to learn some more go.
 
 
 #### Nice to have
-some command line visualisation of each generation based off either a random seend or the same seed. Just in ASCII.   
+some command line visualisation of each generation based off either a random send or the same seed. Just in ASCII.   
